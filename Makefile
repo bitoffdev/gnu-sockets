@@ -1,3 +1,6 @@
+.PHONY: default
+default: server client
+
 init_sockaddr.o: init_sockaddr.c
 	gcc -c init_sockaddr.c
 
